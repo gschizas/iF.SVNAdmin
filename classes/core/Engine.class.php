@@ -314,7 +314,7 @@ class Engine
 		}
 		else
 		{
-			throw new Exception('Can not find implementation for action: '.$action);
+			throw new \Exception('Can not find implementation for action: '.$action);
 		}
 	}
 
